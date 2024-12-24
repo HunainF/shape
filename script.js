@@ -9,7 +9,7 @@ var S = {
     if (i !== -1) {
       S.UI.simulate(decodeURI(action).substring(i + 3));
     } else {
-      S.UI.simulate('LaawX|On Twitch|to start|#rectangle|#countdown 1 minute|');
+      S.UI.simulate('Hey!!|Thanks for the follow!|Maddalena|Enjoy!!|');
     }
 
     S.Drawing.loop(function () {
