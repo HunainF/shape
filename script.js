@@ -9,7 +9,7 @@ var S = {
     if (i !== -1) {
       S.UI.simulate(decodeURI(action).substring(i + 3));
     } else {
-      S.UI.simulate('Hey!!|Thanks for the follow!|Maddalena|Enjoy!!|');
+      S.UI.simulate('Hey!!|Welcome|LaawX|Enjoy!!|');
     }
 
     S.Drawing.loop(function () {
